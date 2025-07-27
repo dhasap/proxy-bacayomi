@@ -1,0 +1,537 @@
+<meta name="generator" content="WordPress 6.8.2">
+<link rel="shortlink" href="https://komikcast.li/?p=250802">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://komikcast.li/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomikcast.li%2Fkomik%2Fproject-ac%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://komikcast.li/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkomikcast.li%2Fkomik%2Fproject-ac%2F&amp;format=xml">
+<link rel="icon" href="https://komikcast.li/wp-content/uploads/2021/02/cropped-logo-kc-32x32.png" sizes="32x32">
+<link rel="icon" href="https://komikcast.li/wp-content/uploads/2021/02/cropped-logo-kc-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://komikcast.li/wp-content/uploads/2021/02/cropped-logo-kc-180x180.png">
+<meta name="msapplication-TileImage" content="https://komikcast.li/wp-content/uploads/2021/02/cropped-logo-kc-270x270.png">
+<script type="text/javascript">
+  $( document ).ready( function () {
+    $( ".shme" ).click( function () {
+      $( ".mm" ).toggleClass( "shwx" );
+    } );
+    $( ".expand" ).click( function () {
+      $( ".megavid" ).toggleClass( "xp" );
+      $( ".pd-expand" ).toggleClass( "sxp" );
+    } );
+    $( ".gnr" ).click( function () {
+      $( ".gnrx" ).toggleClass( "shwgx" );
+    } );
+    $( ".filter" ).click( function () {
+      $( ".advancedsearch" ).toggleClass( "advs" );
+    } );
+
+  } );
+</script><script type="text/javascript">
+  $( document ).ready( function () {
+
+    //Check to see if the window is top if not then display button
+    $( window ).scroll( function () {
+      if ( $( this ).scrollTop() > 100 ) {
+        $( '.scrollToTop' ).fadeIn();
+      } else {
+        $( '.scrollToTop' ).fadeOut();
+      }
+    } );
+
+    //Click event to scroll to top
+    $( '.scrollToTop' ).click( function () {
+      $( 'html, body' ).animate( {
+        scrollTop: 0
+      }, 800 );
+      return false;
+    } );
+
+  } );
+</script><script>
+  var max_bookmark = 30;
+</script></head>
+
+
+
+
+
+
+<body class="home page-template page-template-home page-template-home-php page-id-5 js darkmode" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+  <div class="th">
+    <div id="header-komik" class="centernav bound header">
+        <div class="shme"><span class="dashicons dashicons-menu"></span></div>
+        <header role="banner" itemscope="" itemtype="http://schema.org/WPHeader">
+            <div itemscope="itemscope" itemtype="http://schema.org/Brand" class="site-branding logox">
+                                        <span class="logos">
+                            <a title="Komikcast - Tempatnya Baca Komik Online Bahasa Indonesia" itemprop="url" href="https://komikcast.li/"><img itemprop="logo" src="https://komikcast.li/wp-content/uploads/2023/06/kclogo.png" alt="Komikcast - Tempatnya Baca Komik Online Bahasa Indonesia"><span class="hdl">Komikcast -
+                                    Tempatnya Baca Komik Online Bahasa Indonesia</span></a>
+                        </span>
+                                <meta itemprop="name" content="Komikcast - Tempatnya Baca Komik Online Bahasa Indonesia">
+            </div>
+        </header>
+        <div class="searchx">
+            <form action="https://komikcast.li/" id="form" method="get" itemprop="potentialAction" itemscope="" itemtype="http://schema.org/SearchAction">
+                <meta itemprop="target" content="https://komikcast.li/?s={query}">
+                <input id="s" itemprop="query-input" class="search-live" type="text" placeholder="Search..." name="s" autocomplete="off">
+                <button type="submit" id="submit" class="submit-search-input"><span class="dashicons dashicons-search"></span></button>
+            </form>
+            <div id="search-ajax-result-wrapper" class="hidden">
+                <ul id="search-ajax-result"></ul>
+            </div>
+        </div>
+                    <div id="quickswitcher"> <span class="text">Light/Dark</span> <label class="switch"><input type="checkbox">
+                    <span class="slider round"></span></label></div>
+            </div>
+</div>
+<nav id="main-menu" class="mm ">
+    <div class="centernav">
+        <div class="bound">
+
+            <span itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+                <ul id="menu-header" class="menu"><li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-11"><a href="https://komikcast.li/"><span itemprop="name">Home</span></a></li>
+<li id="menu-item-55478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55478"><a href="https://komikcast.li/daftar-komik/"><span itemprop="name">Daftar Komik</span></a></li>
+<li id="menu-item-193077" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-193077"><a href="https://komikcast.li/daftar-komik/?status=&amp;type=&amp;orderby=popular"><span itemprop="name">Popular</span></a></li>
+<li id="menu-item-45442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45442"><a href="https://komikcast.li/project-list/"><span itemprop="name">Project</span></a></li>
+<li id="menu-item-197228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197228"><a href="https://komikcast.li/bookmark/"><span itemprop="name">Bookmark</span></a></li>
+<li id="menu-item-346007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346007"><a href="https://komikcast.li/history/"><span itemprop="name">History</span></a></li>
+</ul>            </span>
+                            <a class="login-link" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation" title="masuk" href="https://komikcast.li/login/">Login/Register</a>
+                    </div>
+    </div>
+</nav>  
+ 
+    
+  <div id="content">
+    <div class="wrapper">
+                <script>
+var komik_id = 250802;
+var is_komik_page = true;
+</script>
+<div class="komik_info" itemscope="itemscope" itemtype="http://schema.org/Article" data-komikid="250802">
+    <meta itemscope="" itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="https://komikcast.li/komik/project-ac/">
+    <div class="komik_info-body">
+        <div class="komik_info-cover-box">
+            <div class="komik_info-cover-image">
+                                               <img src="">
+            </div>
+        </div>
+        <div class="komik_info-content">
+            <div class="komik_info-content-thumbnail" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+                                
+                                                                           <img src="">
+
+                <meta itemprop="url" content="">
+                <meta itemprop="width" content="190">
+                <meta itemprop="height" content="260">
+            </div>
+            <div class="komik_info-content-body">
+                <h1 itemprop="headline" class="komik_info-content-body-title">Project AC Bahasa Indonesia
+                </h1>
+                <span class="komik_info-content-native">プロジェクトAC</span>
+                <span class="komik_info-content-genre">
+                                        <a class="genre-item comedy" rel="tag" href="https://komikcast.li/genres/comedy/">Comedy</a>
+                                        <a class="genre-item ecchi" rel="tag" href="https://komikcast.li/genres/ecchi/">Ecchi</a>
+                                        <a class="genre-item romance" rel="tag" href="https://komikcast.li/genres/romance/">Romance</a>
+                                        <a class="genre-item school-life" rel="tag" href="https://komikcast.li/genres/school-life/">School Life</a>
+                                        <a class="genre-item shounen" rel="tag" href="https://komikcast.li/genres/shounen/">Shounen</a>
+                                    </span>
+                <div class="komik_info-content-meta">
+                    <span class="komik_info-content-info-release"><b>Released:</b>
+                        2022</span>
+                    <span class="komik_info-content-info"><b>Author:</b>
+                        ?</span>
+                    <span class="komik_info-content-info"><b>Status:</b>
+                        Ongoing</span>
+                    <span class="komik_info-content-info-type"><b>Type:</b> <a href="https://komikcast.li/type/manga/" rel="tag">Manga</a></span>
+                    <span class="komik_info-content-info"><b>Total Chapter:</b>
+                        ?</span>
+
+                    <span class="komik_info-content-update"><b>Updated on:</b> <time itemprop="dateModified" datetime="2022-02-15T22:26:45+07:00">February 15, 2022</time></span>
+                </div>
+            </div>
+            <div class="komik_info-content-rating">
+                <div class="komik_info-content-rating-bungkus">
+                                        <div class="data-rating" data-ratingkomik="7.00">
+                        <strong>Rating 7.00</strong>
+                        <div class="rating-bintang">
+                                                        <select class="score" data-current-rating="" autocomplete="off" style="display:none">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="bookmark-wrapper">
+    <div id="bookmark" class="bookmark_button" data-bookmarked="false">
+                <i class="fas fa-heart"></i> Bookmark
+            </div>
+
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="komik_info-description">
+            <h3>Sinopsis</h3>
+            <div class="komik_info-description-sinopsis" itemprop="articleBody">
+                                                                            <p>touri merupakan siswa SMA yang memiliki rahasia bekerja sebagai illustrator. dia hidup biasa saja, tapi seorang gadis misterius tiba tiba muncul, sebuah perwujudan dari rasa ingin diakui telah muncul… “jadilah guru gambarku”, pinta nya, merubah kehidupan touri yang damai?! sebuah romcom baru yang dibawakan oleh pencipta “super HxEros”</p>
+                                            </div>
+        </div>
+                <div class="social-share" style="padding:1rem;">
+            <div class="redesign-social"><a class="redesign-link redesign-twitter" href="https://twitter.com/intent/tweet?text=Project+AC&amp;url=https%3A%2F%2Fkomikcast.li%2Fkomik%2Fproject-ac%2F&amp;via=krnm" target="_blank"><i class="fab fa-twitter"></i> Twitter</a><a class="redesign-link redesign-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkomikcast.li%2Fkomik%2Fproject-ac%2F" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a><a class="redesign-link redesign-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fkomikcast.li%2Fkomik%2Fproject-ac%2F&amp;title=Project+AC" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a><a class="redesign-link redesign-pinterest" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fkomikcast.li%2Fkomik%2Fproject-ac%2F&amp;media=&amp;description=Project+AC" data-pin-custom="true" target="_blank"><i class="fab fa-pinterest-p"></i> Pin It</a><a class="redesign-link redesign-whatsapp" href="whatsapp://send?text=Project+AC https%3A%2F%2Fkomikcast.li%2Fkomik%2Fproject-ac%2F" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a></div>        </div>
+
+        <div class="kln"><div class="lmt"><div><script data-cfasync="false" async="" type="text/javascript" src="//bw.monthonamphi.com/tXDarFrTTjWPLlr/125897"></script></div></div></div>
+
+    </div>
+    <div class="komik_info-body">
+        <div class="komik_info-release">
+            <h3>Chapter Project AC</h3>
+            <button type="button" class="report-bulk" onclick="openModal()">Report</button>
+        </div>
+
+        <div class="komik_info-chapters">
+            <ul id="chapter-wrapper" class="komik_info-chapters-wrapper">
+                <li class="komik_info-chapters-item" data-visited="250804">
+    <a class="chapter-link-item" href="https://komikcast.li/chapter/project-ac-chapter-01-bahasa-indonesia/">Chapter
+        01</a>
+    <div class="chapter-link-time">
+        3 years ago    </div>
+</li>
+            </ul>
+        </div>
+    </div>
+    <div class="komik_info-body">
+        <div class="komik_info-comments">
+            <h3>Comment</h3>
+        </div>
+        <div class="komik_info-comments-form" style="flex-direction:column">
+                                                       
+
+<div class="comments-container">
+    <input type="hidden" name="ajax-comment-main" value="https://komikcast.li/wp-admin/admin-ajax.php">
+    <input type="hidden" id="comment-nonce" name="nonce" value="7371f9413a">
+    <input type="hidden" id="comment-post-id" name="post_id" value="250802" class="hidden">
+    <div class="comments-inner">
+        <div class="comments-card">
+            <div class="comments-header">
+                <div class="comments-title-container">
+                    <h2 class="comments-title">What do you think?</h2>
+                    <p class="comments-subtitle"><span>0</span> Reactions</p>
+                </div>
+                <div class="reactions-grid">
+                                        <button class="reaction-button " hx-post="https://komikcast.li/wp-admin/admin-ajax.php?action=komik_comment&amp;type=set_reaction" hx-vals="{&quot;reaction&quot;: &quot;upvote&quot;}" hx-include="#comment-nonce, #comment-post-id" hx-target=".comments-header" hx-swap="none" hx-on::before-request="window['selectReaction'](this, 'upvote')" data-reaction="upvote">
+                        <div class="reaction-emoji-container">
+                            <span class="reaction-emoji">👍</span>
+                        </div>
+                        <span class="reaction-count">0</span>
+                        <span class="reaction-label">Upvote</span>
+                    </button>
+                                        <button class="reaction-button " hx-post="https://komikcast.li/wp-admin/admin-ajax.php?action=komik_comment&amp;type=set_reaction" hx-vals="{&quot;reaction&quot;: &quot;funny&quot;}" hx-include="#comment-nonce, #comment-post-id" hx-target=".comments-header" hx-swap="none" hx-on::before-request="window['selectReaction'](this, 'funny')" data-reaction="funny">
+                        <div class="reaction-emoji-container">
+                            <span class="reaction-emoji">😂</span>
+                        </div>
+                        <span class="reaction-count">0</span>
+                        <span class="reaction-label">Funny</span>
+                    </button>
+                                        <button class="reaction-button " hx-post="https://komikcast.li/wp-admin/admin-ajax.php?action=komik_comment&amp;type=set_reaction" hx-vals="{&quot;reaction&quot;: &quot;love&quot;}" hx-include="#comment-nonce, #comment-post-id" hx-target=".comments-header" hx-swap="none" hx-on::before-request="window['selectReaction'](this, 'love')" data-reaction="love">
+                        <div class="reaction-emoji-container">
+                            <span class="reaction-emoji">😍</span>
+                        </div>
+                        <span class="reaction-count">0</span>
+                        <span class="reaction-label">Love</span>
+                    </button>
+                                        <button class="reaction-button " hx-post="https://komikcast.li/wp-admin/admin-ajax.php?action=komik_comment&amp;type=set_reaction" hx-vals="{&quot;reaction&quot;: &quot;surprised&quot;}" hx-include="#comment-nonce, #comment-post-id" hx-target=".comments-header" hx-swap="none" hx-on::before-request="window['selectReaction'](this, 'surprised')" data-reaction="surprised">
+                        <div class="reaction-emoji-container">
+                            <span class="reaction-emoji">😮</span>
+                        </div>
+                        <span class="reaction-count">0</span>
+                        <span class="reaction-label">Surprised</span>
+                    </button>
+                                        <button class="reaction-button " hx-post="https://komikcast.li/wp-admin/admin-ajax.php?action=komik_comment&amp;type=set_reaction" hx-vals="{&quot;reaction&quot;: &quot;angry&quot;}" hx-include="#comment-nonce, #comment-post-id" hx-target=".comments-header" hx-swap="none" hx-on::before-request="window['selectReaction'](this, 'angry')" data-reaction="angry">
+                        <div class="reaction-emoji-container">
+                            <span class="reaction-emoji">😠</span>
+                        </div>
+                        <span class="reaction-count">0</span>
+                        <span class="reaction-label">Angry</span>
+                    </button>
+                                        <button class="reaction-button " hx-post="https://komikcast.li/wp-admin/admin-ajax.php?action=komik_comment&amp;type=set_reaction" hx-vals="{&quot;reaction&quot;: &quot;sad&quot;}" hx-include="#comment-nonce, #comment-post-id" hx-target=".comments-header" hx-swap="none" hx-on::before-request="window['selectReaction'](this, 'sad')" data-reaction="sad">
+                        <div class="reaction-emoji-container">
+                            <span class="reaction-emoji">😢</span>
+                        </div>
+                        <span class="reaction-count">0</span>
+                        <span class="reaction-label">Sad</span>
+                    </button>
+                                    </div>
+            </div>
+            <div class="comments-content">
+                <div class="comments-header-row">
+                    <span class="comments-count">0 Comments</span>
+                    <div class="sort-controls">
+                                                <button class="sort-button order-best sort-button-default active" hx-post="https://komikcast.li/wp-admin/admin-ajax.php?action=komik_comment&amp;type=comment_order" hx-vals="{&quot;order&quot;: &quot;best&quot; }" hx-include="#comment-nonce, #comment-post-id" hx-target=".comments-list" hx-swap="innerHTML" hx-on::before-request="window['sortOrder']('best')">Best</button>
+                                                <button class="sort-button order-newest sort-button-default " hx-post="https://komikcast.li/wp-admin/admin-ajax.php?action=komik_comment&amp;type=comment_order" hx-vals="{&quot;order&quot;: &quot;newest&quot; }" hx-include="#comment-nonce, #comment-post-id" hx-target=".comments-list" hx-swap="innerHTML" hx-on::before-request="window['sortOrder']('newest')">Newest</button>
+                                                <button class="sort-button order-oldest sort-button-default " hx-post="https://komikcast.li/wp-admin/admin-ajax.php?action=komik_comment&amp;type=comment_order" hx-vals="{&quot;order&quot;: &quot;oldest&quot; }" hx-include="#comment-nonce, #comment-post-id" hx-target=".comments-list" hx-swap="innerHTML" hx-on::before-request="window['sortOrder']('oldest')">Oldest</button>
+                                            </div>
+                </div>
+                <div class="comment-form-container">
+                    <div class="comment-form">
+                                                <div class="comment-form-header">
+                                <span class="login-prompt">Log in to join the conversation</span>
+                                <a href="https://komikcast.li/login/?redirect_to=https%3A%2F%2Fkomikcast.li%2Fkomik%2Fproject-ac%2F">
+                                    <button class="login-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="login-icon">
+                                            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                                            <polyline points="10 17 15 12 10 7"></polyline>
+                                            <line x1="15" x2="3" y1="12" y2="12"></line>
+                                        </svg>Log in
+                                    </button>
+                                </a>
+                            </div>
+                                            </div>
+                </div>
+                <div class="comments-list">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+</div>                              </div>
+    </div>
+    <span style="display: none;" itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization">
+        <span style="display: none;" itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="https://komikcast.li/wp-content/uploads/2023/06/kclogo.png">
+        </span>
+        <meta itemprop="name" content="Komikcast">
+    </span>
+</div>
+
+<div id="modal-overlay" class="modal-overlay">
+    <div class="modal">
+        <div class="modal-header">
+            <h2 class="modal-title">Report error</h2>
+            <button class="close-button" onclick="closeModal()">×</button>
+        </div>
+        <div id="form-content" class="form-content" data-report-url="https://komikcast.li/wp-admin/admin-ajax.php?action=report_chapter">
+            <div class="multiselect-container">
+                <div class="multiselect">
+                    <h3 class="multiselect-selected" id="selected-items">
+                        Select Chapters
+                    </h3>
+                    <div class="multiselect-options checkbox-group" id="options-list">
+                    </div>
+                </div>
+            </div>
+            <form id="report-form">
+            <input type="hidden" name="chapter_ids" value="">
+            <input type="hidden" name="chapter_title" value="Project AC">
+                <div class="select-group">
+                    <h3>Select error:</h3>
+                    <select name="error" required="">
+                        <option value="">-- Select an error --</option>
+                        <option value="image_missing">Gambar tidak muncul</option>
+                        <option value="wrong_chapter">Chapter salah</option>
+                        <option value="image_order">Gambar tidak urut</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div id="success-message" class="success-message">
+            <h3>Report Submitted Successfully!</h3>
+            <p>Thank you for your feedback.</p>
+            <p>This window will close in <span class="countdown">5</span> seconds.</p>
+        </div>
+        <div id="must-login">
+            <h3>Please login to report errors.</h3>
+            <p>You need to be logged in to submit a report.</p>
+            <button class="button button-primary" onclick="location.href='https://komikcast.li/login/'">Login</button>
+        </div>
+        <div class="modal-footer">
+            <button class="button button-secondary" onclick="closeModal()">Cancel</button>
+            <button class="button button-primary" onclick="submitReport()" id="submit-button">Submit Report</button>
+        </div>
+    </div>
+</div>
+<a href="#" class="scrollToTop"><span class="dashicons dashicons-arrow-up-alt2"></span></a>
+</div>
+</div>
+
+<div class="fm">
+    <ul id="menu-bottom" class="menu"><li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-76"><a href="https://komikcast.li/"><span itemprop="name">Home</span></a></li>
+</ul></div>
+<div id="footer">
+    <footer id="colophon" class="site-footer" itemscope="itemscope" itemtype="//schema.org/WPFooter" role="contentinfo">
+        <div class="footercopyright">Semua komik di website ini hanya preview dari komik aslinya, mungkin terdapat banyak kesalahan bahasa, nama tokoh, dan alur cerita. Untuk versi aslinya, silahkan beli komiknya jika tersedia di kotamu.
+        </div>
+
+    </footer>
+</div>
+<div id="Evo" style="overflow:hidden;background: #222;">
+                    <center>
+
+        <!-- Histats.com  (div with counter) -->
+        <div id="histats_counter"></div>
+        <!-- Histats.com  START  (aync)-->
+        <script type="text/javascript">
+            var _Hasync = _Hasync || [];
+            _Hasync.push(['Histats.start', '1,3653987,4,128,112,33,00000001']);
+            _Hasync.push(['Histats.fasi', '1']);
+            _Hasync.push(['Histats.track_hits', '']);
+            (function() {
+                var hs = document.createElement('script');
+                hs.type = 'text/javascript';
+                hs.async = true;
+                hs.src = ('//s10.histats.com/js15_as.js');
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+            })();
+        </script>
+        <noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?3653987&101" alt="" border="0"></a></noscript>
+        <!-- Histats.com  END  -->
+</center></div>
+
+
+<style>
+    @media (max-width: 576px) {
+        #teaser3 {
+            bottom: 13.25rem !important;
+        }
+    }
+        @media (max-width: 576px) {
+        #teaser4 {
+            bottom: 11.15rem !important;
+        }
+    }
+
+</style>
+<script type="text/javascript">
+    if (localStorage.getItem('theme-mode') == 'darkmode') {
+        document.querySelectorAll('.switch > input').forEach(function(el) {
+            el.checked = true;
+        });
+    } else {
+        document.querySelectorAll('.switch > input').forEach(function(el) {
+            el.checked = false;
+        });
+    }
+</script>
+<script type="text/javascript">
+    jQuery(function($) {
+        $('#quickswitcher input').on('click', function(e) {
+            if ($(this).is(':checked')) {
+                $('body').addClass('darkmode');
+                $('.switch input').each(function(item, key) {
+                    $(this).prop('checked', true);
+                });
+                localStorage.setItem('theme-mode', 'darkmode');
+            } else {
+                $('body').removeClass('darkmode');
+                $('.switch input').each(function(item, key) {
+                    $(this).prop('checked', false);
+                });
+                localStorage.setItem('theme-mode', 'lightmode');
+            }
+        });
+    });
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+        var themeMode = localStorage.getItem('theme-mode');
+        if (!themeMode) {
+            $('body').addClass('darkmode');
+            $('.switch input').each(function(item, key) {
+                $(this).prop('checked', true);
+            });
+            localStorage.setItem('theme-mode', 'darkmode');
+        }
+    })
+
+    $('.score').each(function(index, el) {
+        var $El = $(el);
+        $El.barrating({
+            theme: 'fontawesome-stars',
+            readonly: true,
+            initialRating: $El.attr('data-current-rating')
+        });
+    });
+</script>
+
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/KomikCast_v2\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+                <!-- GA Google Analytics @ https://m0n.co/ga -->
+                <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-111351430-1"></script>
+                <script>
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'UA-111351430-1');
+                </script>
+
+        <script type="text/javascript" id="komik-redesign-js-before">
+/* <![CDATA[ */
+var is_user_logged_in= 0;var redirect_url='https://komikcast.li/login/?from=https://komikcast.li/komik/project-ac/';var wp_rest_nonce ='0735b1e174';var tukutema_rest = 'https://komikcast.li/wp-json/tukutema/v1/';
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://komikcast.li/wp-content/themes/KomikCast_v2/js/komik.redesign.js" id="komik-redesign-js"></script>
+<script type="text/javascript" src="https://komikcast.li/wp-content/themes/KomikCast_v2/js/report.js" id="report-js-js"></script>
+<script type="module" id="tukutema-pj-deps" src="https://komikcast.li/wp-content/themes/KomikCast_v2/build/76fbc858.js" defer=""></script><script type="module" id="tukutema-pj-delete-bookmark" src="https://komikcast.li/wp-content/themes/KomikCast_v2/build/24f41c4f.js" defer=""></script><script type="module" id="tukutema-pj-custom-js" src="https://komikcast.li/wp-content/themes/KomikCast_v2/build/9fbf2bdc.js" defer=""></script><script type="text/javascript" src="https://komikcast.li/wp-content/themes/KomikCast_v2/js/c2.js" id="comment-script-js"></script>
+<script type="text/javascript" src="https://komikcast.li/wp-content/themes/KomikCast_v2/js/htmx.min.js" id="komikcast-redesign-htmx-js"></script>
+<script type="module">
+  import LazyLoad from "https://cdn.jsdelivr.net/npm/vanilla-lazyload@19.0.3/+esm";
+</script>
+<script>
+        var lazyLoadInstance = new LazyLoad({
+      useNative: true
+    });
+    if (typeof Swiper !== 'undefined') {
+        new Swiper(".swiper", {
+            direction: "horizontal",
+            loop: !1,
+            slidesPerView: 7,
+            spaceBetween: 10,
+            breakpoints: {
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                480: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40
+                },
+                1024: {
+                    slidesPerView: 6,
+                    spaceBetween: 16
+                },
+                1200: {
+                    slidesPerView: 7,
+                    spaceBetween: 16
+                }
+            }
+        })
+    }
+</script>
+
+<script>
+    (function($) {
+        let discusInterval = setInterval(() => {
+            $.each($('#disqus_thread iframe'), (arr, x) => {
+                let src = $(x).attr('src');
+                if (!src) {
+                    $(x).remove();
+                    clearInterval(discusInterval);
+                }
+            });
+        }, 2000);
+    })(jQuery);
+</script>
+
+
+</body><!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using Disk: Enhanced 
+
+Served from: komikcast.me @ 2025-07-27 12:45:11 by W3 Total Cache
+--></html>
