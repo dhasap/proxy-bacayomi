@@ -18,6 +18,10 @@ export default async function handler(req, res) {
     requestHeaders.set("Referer", url.origin + "/");
 
     module.exports = async (req, res) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+
     const { url } = req.query;
 
     if (!url) {
@@ -27,16 +31,14 @@ export default async function handler(req, res) {
     try {
         const response = await fetch(url, {
             headers: {
-                'Referer': 'https://komikcast.lol/',
+                'Referer': 'https://komikcast.li/',
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
             }
         });
         const data = await response.text();
 
-        res.setHeader('Access-Control-Allow-Origin', '*');
         res.status(response.status).send(data);
     } catch (error) {
-        res.setHeader('Access-Control-Allow-Origin', '*');
         res.status(500).send(error.message);
     }
 };
