@@ -17,9 +17,29 @@ export default async function handler(req, res) {
     // Referer dinamis, lebih aman untuk semua situs
     requestHeaders.set("Referer", url.origin + "/");
 
-    const apiResponse = await fetch(targetUrl, {
-      headers: requestHeaders,
-    });
+    module.exports = async (req, res) => {
+    const { url } = req.query;
+
+    if (!url) {
+        return res.status(400).send('URL parameter is required');
+    }
+
+    try {
+        const response = await fetch(url, {
+            headers: {
+                'Referer': 'https://komikcast.lol/',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+        });
+        const data = await response.text();
+
+        res.setHeader('Access-Control-Allow-Origin', '*');
+        res.status(response.status).send(data);
+    } catch (error) {
+        res.setHeader('Access-Control-Allow-Origin', '*');
+        res.status(500).send(error.message);
+    }
+};
 
     if (!apiResponse.ok) {
       const errorText = await apiResponse.text();
